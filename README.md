@@ -48,14 +48,3 @@ Herramientas y tecnologías:
 HTML5, CSS3, JavaScript
 LocalStorage
 
-  <h1>Registrar Emprendimiento</h1>
-  <form id="emprendimientoForm">
-    <select id="feriaSelect"></select>
-    <input type="text" id="nombreEmp" placeholder="Nombre del emprendimiento">
-    <input type="text" id="categoria" placeholder="Categoría">
-    <textarea id="descripcionEmp" placeholder="Descripción"></textarea>
-    <input type="url" id="redSocial" placeholder="Red Social">
-    <input type="text" id="nombreProd" placeholder="Nombre del producto">
-    <input type="number" id="precioProd" placeholder="Precio">
-    <textarea id="descripcionProd" placeholder="Descripción del producto"></textarea>
-    <input type="text" id="fotoProd" placeholder="URL de la fo
