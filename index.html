@@ -19,17 +19,24 @@
 
   <h1>Registrar Emprendimiento</h1>
   <form id="FormdeEmprendimiento">
-    <input type="text" id="empnombre" placeholder="Nombre del Emprendimiento">
-    <input type="text" id="categoria" placeholder="Categoría">
-    <input type="text" id="descripcion" placeholder="Descripción del Emprendimiento">
-    <input type="url" id="enlace" placeholder="Enlace a red social">
-    <input type="text" id="productname" placeholder="Nombre del producto">
-    <input type="number" id="priceproduct" placeholder="Precio">
-    <input type="text" id="descripcionproduct" placeholder="Descripción del Producto">
-    <input type="text" id="fotoProd" placeholder="URL de la foto del producto">
+    <input type="text" id="empnombre" placeholder="Nombre del Emprendimiento" required>
+    <input type="text" id="categoria" placeholder="Categoría" required>
+    <input type="text" id="descripcion" placeholder="Descripción del Emprendimiento" required>
+    <input type="url" id="enlace" placeholder="Enlace a red social" required>
+    <input type="text" id="productname" placeholder="Nombre del producto" required>
+    <input type="number" id="priceproduct" placeholder="Precio" required>
+    <input type="text" id="descripcionproduct" placeholder="Descripción del Producto" required>
+    <input type="text" id="fotoProd" placeholder="URL de la foto del producto" required>
     <button type="submit">Agregar Emprendimiento</button>
   </form>
+    <h2>Ferias Registradas</h2>
+  <div id="listaFerias"></div>
 </div>
+
+
+
+  <script src="main.js"></script>
+
 
 </body>
 </html>

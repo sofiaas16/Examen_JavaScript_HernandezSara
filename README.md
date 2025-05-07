@@ -47,4 +47,3 @@ Herramientas y tecnologías:
 
 HTML5, CSS3, JavaScript
 LocalStorage
-
