@@ -3,23 +3,56 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     background-color: rgb(255, 255, 255);
-  
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularios {
+    background-color: rgb(223, 197, 245);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #000000; 
 }
 
 form {
     display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    display: flex;
     align-items: center;
-    ;
     
 }
 
-h1{
-    font: bold;
-    text-align: center;
-}
-.formularios {
-    background-color: rgb(223, 197, 245);
-    border-radius: 0.5rem;
-    
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
+input:focus {
+    outline: none;
+    border-color: #0084c2;
+}
+
+button {
+    background-color: #237bdf;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+
+button:hover {
+    background-color: #67d49d;
+}

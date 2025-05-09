@@ -1,43 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro de Ferias y Emprendimientos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="formularios">
-  <h1>Feria a Registrar:</h1>
-  <form id="FormdeFeria">
-    <input type="text" id="nombre" placeholder="Lugar">
-    <input type="date" id="fechadeInicio">
-    <input type="date" id="fechadelFin">
-    <input type="text" id="horarios" placeholder="Horarios">
-    <button type="submit">Agregar Feria</button>
-  </form>
+    <h1>Feria a Registrar:</h1>
+    <form id="FormdeFeria">
+        <input type="text" id="nombre" placeholder="Lugar">
+        <input type="date" id="fechadeInicio">
+        <input type="date" id="fechadelFin">
+        <input type="text" id="horarios" placeholder="Horarios">
+        <button type="submit">Agregar Feria</button>
+    </form>
 
-  <h1>Registrar Emprendimiento</h1>
-  <form id="FormdeEmprendimiento">
-    <input type="text" id="empnombre" placeholder="Nombre del Emprendimiento" required>
-    <input type="text" id="categoria" placeholder="Categoría" required>
-    <input type="text" id="descripcion" placeholder="Descripción del Emprendimiento" required>
-    <input type="url" id="enlace" placeholder="Enlace a red social" required>
-    <input type="text" id="productname" placeholder="Nombre del producto" required>
-    <input type="number" id="priceproduct" placeholder="Precio" required>
-    <input type="text" id="descripcionproduct" placeholder="Descripción del Producto" required>
-    <input type="text" id="fotoProd" placeholder="URL de la foto del producto" required>
-    <button type="submit">Agregar Emprendimiento</button>
-  </form>
+    <h1>Registrar Emprendimiento</h1>
+    <form id="FormdeEmprendimiento">
+        <input type="text" id="empnombre" placeholder="Nombre del Emprendimiento" required>
+        <input type="text" id="categoria" placeholder="Categoría" required>
+        <input type="text" id="descripcion" placeholder="Descripción del Emprendimiento" required>
+        <input type="url" id="enlace" placeholder="Enlace a red social" required>
+        <input type="text" id="productname" placeholder="Nombre del producto" required>
+        <input type="number" id="priceproduct" placeholder="Precio" required>
+        <input type="text" id="descripcionproduct" placeholder="Descripción del Producto" required>
+        <input type="text" id="fotoProd" placeholder="URL de la foto del producto" required>
+        <button type="submit">Agregar Emprendimiento</button>
+    </form>
+
     <h2>Ferias Registradas</h2>
-  <div id="listaFerias"></div>
+    <select id="feriaSelect"></select> <!-- select -->
+    <div id="listaFerias"></div>
 </div>
 
-
-
-  <script src="main.js"></script>
-
-
+<script src="main.js"></script>
 </body>
 </html>
-
